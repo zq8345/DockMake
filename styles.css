@@ -81,27 +81,16 @@ a {
   overflow: visible;
 }
 
-.brand-mark rect,
-.brand-mark-core {
+.brand-mark-frame {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-}
-
-.brand-mark rect {
-  stroke-width: 5;
-}
-
-.brand-mark-core {
   stroke-width: 5;
 }
 
 .brand-mark-accent {
-  fill: none;
-  stroke: #20c7bf;
-  stroke-width: 4;
-  stroke-linecap: round;
+  fill: #20c7bf;
 }
 
 .site-nav {
