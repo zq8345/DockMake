@@ -1,0 +1,7 @@
+# Internal orchestration docs — never publish
+HANDOFF*.md
+.agents/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
