@@ -322,26 +322,25 @@ h3 {
 }
 
 .manifesto {
-  min-height: 420px;
   display: flex;
   align-items: center;
+  min-height: 340px;
+  padding: clamp(64px, 9vw, 108px) clamp(20px, 6vw, 80px);
   background: var(--graphite);
   color: var(--white);
 }
 
-.manifesto-inner {
-  width: min(980px, 100%);
-}
-
 .manifesto p {
+  width: min(1040px, 100%);
   margin: 0;
-  color: rgba(255, 255, 255, 0.88);
-  font-size: clamp(34px, 5.4vw, 86px);
-  line-height: 1.02;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: clamp(32px, 4.8vw, 78px);
+  line-height: 1.05;
 }
 
 .contact {
   align-items: center;
+  background: var(--paper);
 }
 
 .contact h2 {
@@ -440,5 +439,30 @@ h3 {
 
   .site-footer {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 520px) {
+  .section {
+    padding: 64px 24px;
+  }
+
+  h2 {
+    font-size: 36px;
+    line-height: 1.08;
+  }
+
+  .manifesto {
+    min-height: 0;
+    padding: 56px 24px;
+  }
+
+  .manifesto p {
+    font-size: 30px;
+    line-height: 1.12;
+  }
+
+  .contact {
+    gap: 28px;
   }
 }
