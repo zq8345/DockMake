@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="DockMake">
   <rect width="64" height="64" rx="14" fill="#111417"/>
-  <rect x="15" y="15" width="34" height="34" rx="10" fill="none" stroke="#ffffff" stroke-width="5"/>
-  <rect x="27" y="27" width="10" height="10" rx="3" fill="#0c8f8a"/>
+  <path fill="#ffffff" fill-rule="evenodd" d="M14 10h19c13 0 23 9.5 23 22S46 54 33 54H14V10Zm13 13v18h7.5c5 0 9-4 9-9s-4-9-9-9H27Z"/>
+  <rect x="8" y="28" width="13" height="8" rx="3" fill="#0c8f8a"/>
 </svg>

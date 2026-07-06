@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 180" role="img" aria-label="Dock family logo system">
+  <defs>
+    <path id="dock-shell" fill-rule="evenodd" d="M14 10h19c13 0 23 9.5 23 22S46 54 33 54H14V10Zm13 13v18h7.5c5 0 9-4 9-9s-4-9-9-9H27Z"/>
+  </defs>
+  <rect width="720" height="180" rx="18" fill="#f7f8f6"/>
+  <g transform="translate(40 38)">
+    <use href="#dock-shell" fill="#111417"/>
+    <rect x="8" y="28" width="13" height="8" rx="3" fill="#0c8f8a"/>
+    <text x="0" y="95" fill="#111417" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">DockMake</text>
+  </g>
+  <g transform="translate(190 38)">
+    <use href="#dock-shell" fill="#111417"/>
+    <rect x="8" y="28" width="13" height="8" rx="3" fill="#4f7cff"/>
+    <path d="M31 25h9M31 31h9M31 37h6" fill="none" stroke="#4f7cff" stroke-width="3" stroke-linecap="round"/>
+    <text x="0" y="95" fill="#111417" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">DockDocs</text>
+  </g>
+  <g transform="translate(340 38)">
+    <use href="#dock-shell" fill="#111417"/>
+    <rect x="8" y="28" width="13" height="8" rx="3" fill="#d79627"/>
+    <path d="M29 32l4 4 8-9" fill="none" stroke="#d79627" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="0" y="95" fill="#111417" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">DockTodo</text>
+  </g>
+  <g transform="translate(490 38)">
+    <use href="#dock-shell" fill="#111417"/>
+    <rect x="8" y="28" width="13" height="8" rx="3" fill="#b94c45"/>
+    <path d="M29 34c3-9 6-9 9 0 2 6 4 6 6 0" fill="none" stroke="#b94c45" stroke-width="3" stroke-linecap="round"/>
+    <text x="0" y="95" fill="#111417" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">DockEcho</text>
+  </g>
+</svg>

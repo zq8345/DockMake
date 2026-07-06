@@ -4,25 +4,26 @@ DockMake is the parent company. DockDocs, DockTodo, DockEcho, DockImg, DockMusic
 
 ## Core Shape
 
-The shared shape is a rounded square dock:
+The shared shape is a bold D-shaped dock:
 
-- Outer frame: the Dock container, representing local boundary and product family.
-- Inner glyph: the product-specific capability.
+- D shell: the visible Dock family identifier.
+- Dock tab: the small left accent block, representing something being docked into the system.
+- Inner bay: the product-specific capability area.
 - Accent color: product-specific, while the frame stays neutral.
 
 ## Current Parent Mark
 
 DockMake uses the simplest parent mark:
 
-- Outer dock frame
-- Center anchor square
+- D-shaped dock shell
+- Teal dock tab
 - Teal accent
 
 This keeps the company mark neutral enough to sit above all products.
 
 ## Product Pattern
 
-Use the same outer frame and replace only the inner glyph:
+Use the same D shell and replace only the inner bay glyph:
 
 - DockDocs: document line or citation mark
 - DockTodo: check mark or task node

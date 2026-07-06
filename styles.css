@@ -81,12 +81,8 @@ a {
   overflow: visible;
 }
 
-.brand-mark-frame {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-width: 5;
+.brand-mark-shell {
+  fill: currentColor;
 }
 
 .brand-mark-accent {
